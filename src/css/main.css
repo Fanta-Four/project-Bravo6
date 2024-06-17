@@ -3,15 +3,11 @@
     --white: #ffffff;
     --white70: rgba(255, 255, 255, 0.7);
     --beige: #bea69e;
-    --bg-grid-gap: 184.83px;
-    --bg-grid-thickness: 1px;
-    --bg-grid-dashsize: 20px;
-    --bg-grid-clr: var(--white70);
-    --c: #fff; /* color */
-    --t: 2px;  /* thickness of the lines */
-    --g: 50px; /* gap between lines */
-    --s: 12px; /* size of the dashes*/
-  }
+    --bg-grid-gap: 184.83px; /* gap between lines */
+    --bg-grid-thickness: 1px; /* thickness of the lines */
+    --bg-grid-dashsize: 20px; /* size of the dashes*/
+    --bg-grid-clr: var(--white70); /* color */
+}
   
   body {
     background-color: var(--black);
