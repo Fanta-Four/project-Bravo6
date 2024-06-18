@@ -1,5 +1,6 @@
 :root {
     --black: #121212;
+    --bg-black: #1d1d1d;
     --white: #ffffff;
     --white70: rgba(255, 255, 255, 0.7);
     --beige: #bea69e;
@@ -27,6 +28,10 @@
     color: var(--white);
     text-decoration: none;
     background-color: var(--black);
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
   }
   .header,
   .form-container,
